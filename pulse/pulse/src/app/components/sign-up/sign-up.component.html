@@ -1,0 +1,24 @@
+<br><br>
+
+<div class="displayTable" style="text-align: center;" class="shadow">
+    <br>
+    <div class="displayTableCell">
+  
+      <div class="authBlock">
+        <h3>Sign In</h3>
+        <div class="formGroup">
+          <input  style="width: 30%;" type="text" class="formControl" placeholder="Username" #userName required>
+        </div>
+  
+        <div class="formGroup">
+          <input style="width: 30%;" type="password" class="formControl" placeholder="Password" #userPassword required>
+        </div>
+  
+        <!-- Calling SignIn Api from AuthService -->
+        <div class="formGroup">
+          <input type="button" class="btn btnPrimary" value="Log in" (click)="authService.SignIn(userName.value, userPassword.value)">
+        </div>
+  
+    </div>
+    <br><br>
+  </div>

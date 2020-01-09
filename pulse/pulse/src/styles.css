@@ -1,1 +1,24 @@
 /* You can add global styles to this file, and also import other style files */
+.body{
+    background: #20dae6;
+    height: -webkit-fill-available;};
+
+.example-viewport {
+        height: 200px;
+        width: 200px;
+        border: 1px solid black;}
+      
+.example-item {
+        height: 50px;}
+
+.shadow{
+    -webkit-box-shadow: 5px 5px 15px 5px #000000; 
+box-shadow: 5px 5px 15px 5px #000000;
+}
+
+.back{
+
+    background: #D0E4F5 url("/assets/cardio-heartbeat-medical-background-design_1017-17845.jpg") no-repeat scroll 0 0;
+    background-attachment: fixed;
+    background-size: cover;
+}

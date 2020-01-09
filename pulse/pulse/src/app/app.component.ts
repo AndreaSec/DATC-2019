@@ -18,9 +18,5 @@ export class AppComponent {
     }); 
 
   }
-
-  public getValue() {
-    return this.BPM;
-  }
 }
 
